@@ -1,0 +1,118 @@
+.wrapper{
+width: 100%;
+height:2000px;
+background-color: #F9FCFF;
+}
+.header{
+position: absolute;
+width:100%;    
+height:15%;
+background-color: #fff;
+}
+.head_right{
+position:absolute;
+top:60%;
+left: 57%
+}
+.head_para{
+opacity: .7;
+text-decoration: none;
+font-family: 'Arial',sans-serif;
+}
+.logo{
+padding-bottom: 5px;
+}
+.navbar{
+position:absolute;
+top:15%;
+z-index: 100;
+}
+.sticky {
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+z-index: 100;
+border-top: 0;
+}
+.navbar-brand{
+color:cyan;
+}
+.container{
+position:absolute;
+top:23%;
+right:5%;
+left:5%;
+padding-top:15px;
+}
+.row{
+position: absolute;
+top:105%
+}
+.row h2{
+text-align: center;
+font-family: 'Arial',sans-serif;
+font-weight:400;
+padding-bottom: 10px;
+}
+.cont{
+height: 550px;
+}
+.thumbnail{
+height: 550px;
+}
+.banner{
+position: absolute;
+top:210%;
+background-color: #fff;
+}
+.banner img{
+position: relative;
+float: right;
+width:31%;
+height: 21%;
+opacity: 0.2;
+}
+.banner .ban{
+position: relative;
+right:-13%;
+top:100px;
+width: 900px;
+height: 145px;
+opacity: 1;
+}
+.foot{
+position: absolute;
+top:1800px;
+height: 230px;
+background-color: #242434;
+}
+.foot_right{
+position: absolute;
+height: 100%;
+color: #fff;
+font-family: 'Arial',sans-serif;
+}
+.foot_right p{
+color:darkgrey;
+}
+.foot_right h3:hover{
+font-weight: 400;
+}
+.foot_ban{
+position: relative;
+left: 35%;
+top: 70%;
+}
+.foot_ban img{
+width:350px;
+height: 45px;    
+}
+.anc{
+position: relative;
+float: right;
+top:80%;
+right: 10%;
+text-decoration: none;
+}
+

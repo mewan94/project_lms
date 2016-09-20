@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+<link rel="stylesheet" href="main.css"/>
+
+
+<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+</head>
+    
+<body>
+
+    <div class="header col-md-6"><!--header start-->
+       <div class="log col-sm-4">
+            <img class="logo" src="images/nsbm1.jpg"/>
+       </div>
+        <div class="head_right">
+            <p>National School  of Business Management | Contact Us: +94(11)544 5000 | <a href="info@nsbm.lk">info@nsbm.lk</a> </p>
+        </div>
+    </div><!--header end-->        
+  
+<nav class="navbar navbar-inverse col-md-12 navbar-fixed-top"><!--nav start-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">National School of Business Management</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><!--nav end-->
+
+
+<div class="foot col-md-12">
+        <div class="foot_right col-md-3">
+            <h3>Contact Us:</h3>
+            <p>309, High Level Road<br>
+Colombo 05<br>
+00500<br>
+Sri Lanka<br>
+<br>
+Tel: +94 (11) 544 5000<br>
+Fax: +94 (11) 544 5009<br>
+Email: info@nsbm.lk
+            </p>
+        </div>
+        <div class="foot_ban col-sm-4">
+            <img src="images/ban2.png"/>
+        </div>
+    </div>
+
+    
+<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script> 
+
+<script>   
+$(document).ready(function() {
+var stickyNavTop = $('.navbar').offset().top;
+ 
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+      
+if (scrollTop > stickyNavTop) { 
+    $('.navbar').addClass('sticky');
+} else {
+    $('.navbar').removeClass('sticky'); 
+}
+};
+ 
+stickyNav();
+ 
+$(window).scroll(function() {
+    stickyNav();
+});
+});      
+</script>
+
+</body>
+</html>

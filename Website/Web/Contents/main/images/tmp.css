@@ -1,0 +1,68 @@
+.wrapper{
+width: 100%;
+height:2000px;
+background-color: #F9FCFF;
+}
+.header{
+position: absolute;
+width:100%;    
+height:15%;
+background-color: #fff;
+}
+.head_right{
+position:absolute;
+top:60%;
+left: 57%
+}
+.head_para{
+opacity: .7;
+text-decoration: none;
+font-family: 'Arial',sans-serif;
+}
+.logo{
+padding-bottom: 5px;
+}
+.navbar{
+position:absolute;
+top:15%;
+z-index: 100;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+.navbar-brand{
+color:cyan;
+}
+.foot{
+position: absolute;
+top:1800px;
+height: 230px;
+background-color: #242434;
+}
+.foot_right{
+position: absolute;
+height: 100%;
+color: #fff;
+font-family: 'Arial',sans-serif;
+}
+.foot_right p{
+color:darkgrey;
+}
+.foot_right h3:hover{
+font-weight: 400;
+}
+.foot_ban{
+position: relative;
+left: 35%;
+top: 70%;
+}
+.foot_ban img{
+width:350px;
+height: 45px;    
+}
+
